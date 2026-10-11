@@ -19,9 +19,9 @@ This project provides a small Bash script to synchronize a local folder with a f
 Edit `config.env.local` and set these values:
 
 ```bash
-S3_BUCKET="your-bucket-name"
-S3_BUCKET_FOLDER="your-folder-name"
-LOCAL_SYNC_PATH="/absolute/path/to/your-folder-name"
+S3_BUCKET="s3://coffeeland-projects-dev/"
+S3_BUCKET_FOLDER="workspace/"
+LOCAL_SYNC_PATH=""
 AWS_PROFILE="dev"
 ```
 
